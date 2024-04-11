@@ -19,7 +19,7 @@ jobs:
     - name: Run linting tests
       run: | 
         flake8 src/model/
-    -name: Run unit tests
+    - name: Run unit tests
       run: |
         pytest .
 
