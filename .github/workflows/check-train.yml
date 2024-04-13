@@ -26,7 +26,6 @@ jobs:
     - name: Run linting tests
       run: | 
         flake8 src/model/
-    - name: Run unit tests
   unit-test:
     name: unit-test
     runs-on: ubuntu-latest
